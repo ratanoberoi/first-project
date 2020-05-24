@@ -1,0 +1,39 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header img {
+    width: 78px;
+}
+
+.header ul {
+    display: flex;   
+    text-decoration: underline;
+}
+
+.header li {
+    padding: 16px;
+    list-style: none;
+}
+
+.header li a {
+    text-decoration: none;
+    color: black;    
+}
+#hed1    {text-align: center;
+}
+.header p1 {
+    padding: 160px;
+}
+.header p2 {
+    padding: 160px;
+}
+.header p3 {
+    padding: 160px;
+}
+.body h1 
+{
+    color: red;
+    text-decoration: underline;
+}
