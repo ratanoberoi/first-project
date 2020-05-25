@@ -37,3 +37,4 @@
     color: red;
     text-decoration: underline;
 }
+.footer ul li {display: flex;}
