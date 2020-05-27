@@ -1,11 +1,15 @@
 .header {
     display: flex;
     justify-content: space-between;
+    position: relative;
+    top: 5px;
+    margin: auto;
+    background-color:pink;
 }
 
 .header img {
     width: 78px;
-}
+    }
 
 .header ul {
     display: flex;   
@@ -17,9 +21,10 @@
     list-style: none;
     opacity: 0.7;
     font-size: 18px;
-    font-weight: 100000;
+    
+    
 }
-
+.header:hover{color: royalblue;}
 .header li a {
     text-decoration: none;
     color: black;    
@@ -30,18 +35,15 @@
             background-color: rgba(45,  45 , 45, 0.1);
             font-size: 30px;
          }
-.header p1 {
-    padding: 160px;
+.div 
+{
+        line-height: 25px;
 }
-.header p2 {
-    padding: 160px;
-}
-.header p3 {
-    padding: 160px;
-}
+
 .body h1 
 {
     color: red;
     text-decoration: underline;
 }
-.footer ul li {display: flex;}
+.footer ul li {display: inline;}
+.body {background-color: silver;}
