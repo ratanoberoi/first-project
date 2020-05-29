@@ -38,6 +38,7 @@
 .div 
 {
         line-height: 25px;
+        background-color: beige;
 }
 
 .body h1 
@@ -45,5 +46,6 @@
     color: red;
     text-decoration: underline;
 }
-.footer ul li {display: inline;}
+.footer ul {display: inline;}
 .body {background-color: silver;}
+.header div:hover {transform: scale(1.5);}
