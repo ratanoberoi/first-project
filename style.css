@@ -5,6 +5,7 @@
     top: 5px;
     margin: auto;
     background-color: #BC8F8F;
+    
 }
 
 .header img {
@@ -38,6 +39,7 @@ button {
   {
     100% {
       background-color: #4791d0;
+      
          }
   }
 .header:hover
@@ -57,7 +59,7 @@ button {
 .div 
 {
         line-height: 25px;
-        background-color: beige;
+            
 }
 
 .body h1 
@@ -67,13 +69,19 @@ button {
 }
 .footer ul 
 {
-    display: inline;
+    display: inline-table;
 }
-.body 
-{
-    background-color: silver;
-}
+   
 .header div:hover 
 {
     transform: scale(1.5);
 }
+#back {background-color: royalblue;}
+footer {
+    
+    background-color: lightgrey;
+    width: auto;
+    border: 15px solid #BC8F8F;
+    padding: 20px;
+    margin: 0px;
+  }
