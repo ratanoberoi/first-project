@@ -4,7 +4,7 @@
     position: relative;
     top: 5px;
     margin: auto;
-    background-color: rosybrown;
+    background-color: #BC8F8F;
 }
 
 .header img {
@@ -34,12 +34,16 @@ button {
     animation-duration: 500ms;
     animation-fill-mode: forwards;
   }
-  @keyframes background-color {
+  @keyframes background-color 
+  {
     100% {
       background-color: #4791d0;
-    }
+         }
   }
-.header:hover{color: royalblue;}
+.header:hover
+{
+    color: royalblue;
+}
 .header li a {
     text-decoration: none;
     color: black;    
@@ -61,6 +65,15 @@ button {
     color: red;
     text-decoration: underline;
 }
-.footer ul {display: inline;}
-.body {background-color: silver;}
-.header div:hover {transform: scale(1.5);}
+.footer ul 
+{
+    display: inline;
+}
+.body 
+{
+    background-color: silver;
+}
+.header div:hover 
+{
+    transform: scale(1.5);
+}
