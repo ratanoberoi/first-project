@@ -26,4 +26,7 @@ Now enter these commands n terminal:
 * `cd projectname`
 * `git add .`
 * `git commit -m “Update”`
-* `git push origin master`
+* `git push origin master` // to use line no 32 cmd if working on different branch
+
+### push a different branch
+* `git push origin feature/home-page`

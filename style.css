@@ -1,11 +1,18 @@
 .header {
     display: flex;
     justify-content: space-between;
+    position: relative;
+    top: 5px;
+    margin: auto;
+    background-color: #BC8F8F;
+    
 }
+
+.body {background-color: lightpink;}
 
 .header img {
     width: 78px;
-}
+    }
 
 .header ul {
     display: flex;   
@@ -15,25 +22,82 @@
 .header li {
     padding: 16px;
     list-style: none;
+    opacity: 0.7;
+    font-size: 18px; 
+    
 }
-
+button {
+    border-radius: 5px;
+    color: black;
+    background-color: red;
+    padding: 5px 10px 8px 10px;
+  }
+  button:hover{
+    animation-name: background-color;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+  }
+  @keyframes background-color 
+  {
+    100% {
+      background-color: #4791d0;
+      
+         }
+  }
+.header:hover
+{
+    color: royalblue;
+}
 .header li a {
     text-decoration: none;
     color: black;    
 }
-#hed1    {text-align: center;
+#hed1    {
+            text-align: center;
+            padding: 10px;
+            background-color: rgba(45,  45 , 45, 0.1);
+            font-size: 30px;
+         }
+.div 
+{
+        line-height: 25px;
+            
 }
-.header p1 {
-    padding: 160px;
-}
-.header p2 {
-    padding: 160px;
-}
-.header p3 {
-    padding: 160px;
-}
+
 .body h1 
 {
     color: red;
     text-decoration: underline;
+    background-color: lightpink;
 }
+.footer ul 
+{
+    display: inline-table;
+}
+   
+.header div:hover 
+{
+    transform: scale(1.5);
+}
+#back {background-color: royalblue;}
+footer {
+    
+    background-color: lightgrey;
+    width: auto;
+    border: 15px solid #BC8F8F;
+    padding: 20px;
+    margin: 0px;
+  }
+  footer li 
+  {
+      display: inline;
+      padding: 5px;
+      font-size: 18px;
+      background-color: #BC8F8F;
+      text-decoration: underline;
+      
+}
+  #borderimg1 { 
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(border.png) 30 round;
