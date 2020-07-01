@@ -6,7 +6,7 @@
 * Create new repository
 
 * Then Go to Gitbash
-* `cd cd /c/MAMP/htdocs`
+* `cd /c/xampp/htdocs`
 * `cd project-name`
 
 
